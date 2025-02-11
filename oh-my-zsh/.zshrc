@@ -102,3 +102,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# PROMPT='%F{green}%n:%F{blue}%~%f$ '
+HISTTIMEFORMAT='%y/%m/%d %T '
+PROMPT='[%D{%Y-%m-%d %H:%M:%S}] %F{green}%n:%F{cyan}%1~%f %# '
